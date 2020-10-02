@@ -13,9 +13,43 @@
     <link integrity="" rel="stylesheet" href="./ember/assets/ember-app.css">
 
     <meta name="ember-app/config/environment" content="%7B%22modulePrefix%22%3A%22ember-app%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22%2F%22%2C%22locationType%22%3A%22auto%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%2C%22EXTEND_PROTOTYPES%22%3A%7B%22Date%22%3Afalse%7D%2C%22_APPLICATION_TEMPLATE_WRAPPER%22%3Afalse%2C%22_DEFAULT_ASYNC_OBSERVERS%22%3Atrue%2C%22_JQUERY_INTEGRATION%22%3Afalse%2C%22_TEMPLATE_ONLY_GLIMMER_COMPONENTS%22%3Atrue%7D%2C%22APP%22%3A%7B%22name%22%3A%22ember-app%22%2C%22version%22%3A%220.0.0%2B3c5e203b%22%7D%2C%22exportApplicationGlobal%22%3Afalse%2C%22isModuleUnification%22%3Afalse%7D" />
+
+    <style>
+      body {
+        font-family: sans-serif;
+        margin: 0;
+        padding: 2rem;
+      }
+
+      button {
+        font-size: 1.5rem;
+      }
+
+      #ember-app {
+        color: red;
+      }
+    </style>
   </head>
 
   <body>
+    <h1>ember-modifier bug repro</h1>
+
+    <h2>Instructions</h2>
+
+    <ol>
+      <li>Open console</li>
+      <li>Click MOUNT to mount the Ember app</li>
+      <li>Click UNMOUNT to unmount the Ember app</li>
+    </ol>
+
+    <p>
+      In ember-modifier@1.x, the Ember app was destroyed and removed from dom.
+    </p>
+
+    <p>
+      In ember-modifier@2.x, the Ember app is not "cleaned up".
+    </p>
+
     <button id="mount">Mount ember app</button>
     <button id="unmount">Unmount ember app</button>
 
