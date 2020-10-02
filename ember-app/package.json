@@ -46,7 +46,6 @@
     "eslint-plugin-ember": "^7.7.2",
     "eslint-plugin-node": "^11.0.0",
     "loader.js": "^4.7.0",
-    "single-spa-ember": "^0.2.0",
     "qunit-dom": "^1.0.0"
   },
   "engines": {

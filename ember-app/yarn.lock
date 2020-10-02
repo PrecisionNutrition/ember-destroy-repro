@@ -9534,11 +9534,6 @@ simple-html-tokenizer@^0.5.9:
   resolved "https://registry.yarnpkg.com/simple-html-tokenizer/-/simple-html-tokenizer-0.5.9.tgz#1a83fe97f5a3e39b335fddf71cfe9b0263b581c2"
   integrity sha512-w/3FEDN94r4JQ9WoYrIr8RqDIPZdyNkdpbK9glFady1CAEyD97XWCv8HFetQO21w81e7h7Nh59iYTyG1mUJftg==
 
-single-spa-ember@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/single-spa-ember/-/single-spa-ember-0.2.0.tgz#22e66367601caac296c8513083e10a40cf7ffdf0"
-  integrity sha1-IuZjZ2AcqsKWyFEwg+EKQM9//fA=
-
 slash@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/slash/-/slash-1.0.0.tgz#c41f2f6c39fc16d1cd17ad4b5d896114ae470d55"
