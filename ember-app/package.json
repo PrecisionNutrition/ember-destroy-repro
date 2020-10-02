@@ -41,7 +41,6 @@
     "ember-maybe-import-regenerator": "^0.1.6",
     "ember-qunit": "^4.6.0",
     "ember-resize-observer-component": "^0.3.0",
-    "ember-resize-observer-polyfill": "^0.0.1",
     "ember-resolver": "^7.0.0",
     "ember-source": "~3.16.0",
     "ember-welcome-page": "^4.0.0",
