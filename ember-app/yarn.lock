@@ -5116,16 +5116,6 @@ ember-modifier@^2.1.0:
     ember-destroyable-polyfill "^2.0.2"
     ember-modifier-manager-polyfill "^1.2.0"
 
-ember-on-resize-modifier@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/ember-on-resize-modifier/-/ember-on-resize-modifier-0.3.0.tgz#6c8b0fda3cd77c9f51c5e8394ed7af13b2c20fcb"
-  integrity sha512-LUZcO3dYJXTcUFI2/8X+wyZXEp0p/xDZS3UHxwI/j99MprL4ZNxdYELQ5Rhq0sR/eGMBaJMEMzgM7I62+irOrg==
-  dependencies:
-    ember-cli-babel "^7.20.5"
-    ember-cli-htmlbars "^5.1.2"
-    ember-modifier "^2.1.0"
-    ember-resize-observer-service "^0.3.0"
-
 ember-qunit@^4.6.0:
   version "4.6.0"
   resolved "https://registry.yarnpkg.com/ember-qunit/-/ember-qunit-4.6.0.tgz#ad79fd3ff00073a8779400cc5a4b44829517590f"
